@@ -1,0 +1,94 @@
+.box{
+    border: 3px solid white;
+    border-radius: 6px;
+    
+}
+
+.box input{
+    margin: auto;
+    text-align: center;
+    margin: 1rem 0;
+    color: black;
+}
+
+input{
+    border-radius: 99px;
+    border: none;
+    width: 87%;
+    padding: 1rem 2rem;
+    font-size: 1.8rem !important;
+    outline: none;
+    margin-top: 2rem !important;
+    width: 60%;
+    /* margin-left: 70rem !important; */
+    text-align: center;
+}
+
+
+.box2 img{
+    height: 20vh;
+    color: white;
+}
+
+.cityName{
+    font-weight: bold;
+    font-size: 8vh;
+    color: black;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.celcius{
+    color: white;
+    font-size: 12vh;
+}
+
+.cityData{
+    font-size: 2.3rem;
+    color: white;
+
+}
+
+.notfound{
+    font-size: 2rem;
+}
+
+@media (max-width: 780px){
+    .container{
+            /* margin-left: 10px !important;
+            margin-right: 10px !important; */
+        /* height: 77vh; */
+    }
+
+    .box{
+        border: none;
+        border: 3px solid white;
+        
+    }
+    .cityData{
+        font-size:20px;
+        color: white;
+    
+    }
+    .celcius{
+        color: white;
+        font-size: 3rem;
+    }
+
+    .main{
+        font-size: 2.1rem !important;
+    }
+
+    input{
+        font-size: 1.2rem !important;
+    }
+    
+}
+
+.main{
+    color: black;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+
